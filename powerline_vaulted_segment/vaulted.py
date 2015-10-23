@@ -4,7 +4,7 @@ from powerline.theme import requires_segment_info
 
 
 @requires_segment_info
-def vaulted(pl, segment_info, prefix=None):
+def vaulted(pl, segment_info, prefix=''):
     '''Return the current vaulted vault
 
     :param string prefix:
